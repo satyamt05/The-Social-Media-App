@@ -1,0 +1,51 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(249, 175, 175, 0.578);
+    /* margin: 50px; */
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    background-color: rgb(187, 162, 162);
+    height: 50vh;
+    width:50vh;
+    border-radius: 50%;
+  
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    transition: ease-in-out 1s;
+        
+    
+    
+}
+.circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 103, 103);
+    /* background-color:  */
+    height: 55vh;
+    width:55vh;
+    border-radius: 50%;
+    cursor:alias;
+  
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+    /* transition: ease-in-out 1s; */
+        
+    
+    
+}
+.circle:hover{
+    height: 55vh;
+    width:55vh;
+    transition: ease-in-out 1s;
+
+}
